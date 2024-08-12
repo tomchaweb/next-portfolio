@@ -49,8 +49,8 @@ export default function Projects() {
           My Work
         </h2> */}
       </motion.div>
-      <div className="project-cards grid grid-cols-1 md:grid-cols-5 gap-y-4 md:gap-10 mt-10">
-        <Card className="w-auto p-2 flex flex-col col-span-2 row-span-2 items-start justify-between overflow-hidden">
+      <div className="project-cards grid grid-cols-1 md:grid-cols-2 gap-y-4 md:gap-10 mt-10">
+        <Card className="w-auto p-2 flex flex-col items-start justify-between overflow-hidden">
           <CardHeader>
             <CardTitle>Modal E-Commerce</CardTitle>
             <CardDescription>A fully functional furniture e-commerce site.</CardDescription>
@@ -67,26 +67,6 @@ export default function Projects() {
             <Badge variant="secondary">JS</Badge>
             <Badge variant="secondary">CSS</Badge>
           </CardFooter>
-        </Card>
-        <Card className="w-auto p-2 flex flex-col col-span-3 items-start justify-between">
-          <CardHeader>
-            <CardTitle>Project</CardTitle>
-            <CardDescription>Project made with stuff</CardDescription>
-          </CardHeader>
-          <CardContent>
-            image of the project
-          </CardContent>
-          <CardFooter><Badge variant="secondary">React</Badge></CardFooter>
-        </Card>
-        <Card className="w-auto p-2 flex flex-col col-span-3 items-start justify-between">
-          <CardHeader>
-            <CardTitle>Project</CardTitle>
-            <CardDescription>Project made with stuff</CardDescription>
-          </CardHeader>
-          <CardContent>
-            image of the project
-          </CardContent>
-          <CardFooter><Badge variant="secondary">React</Badge></CardFooter>
         </Card>
       </div>
 
