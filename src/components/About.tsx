@@ -10,7 +10,7 @@ import TSLogo from "./svg/TSLogo";
 
 import { motion } from "framer-motion";
 
-const textVariants: Variants = {
+const textVariants = {
   offscreen: {
     y: 50,
     opacity: 0
@@ -26,7 +26,7 @@ const textVariants: Variants = {
   }
 };
 
-const logoVariants: Variants = {
+const logoVariants = {
   offscreen: {
     y: 50,
     opacity: 0

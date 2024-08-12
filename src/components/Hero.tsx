@@ -6,7 +6,7 @@ import { Button } from "./ui/button"
 import { motion } from "framer-motion"
 import { ArrowDown } from "lucide-react"
 
-const h1Variants: Variants = {
+const h1Variants = {
   offscreen: {
     x: 50,
     opacity: 0
@@ -22,7 +22,7 @@ const h1Variants: Variants = {
   }
 }
 
-const h2Variants: Variants = {
+const h2Variants = {
   offscreen: {
     x: -50,
     opacity: 0

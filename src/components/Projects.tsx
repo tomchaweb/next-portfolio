@@ -17,7 +17,7 @@ import Image from "next/image"
 
 import { motion } from "framer-motion"
 
-const titleVariants: Variants = {
+const titleVariants = {
   offscreen: {
     y: 50,
     opacity: 0
