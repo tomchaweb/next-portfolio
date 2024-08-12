@@ -45,7 +45,7 @@ const logoVariants = {
 
 export default function About() {
   return (
-    <section id="about" className="about w-fit md:h-[100vh] py-20 px-20 md:py-20 md:px-40 flex flex-col gap-6 border-muted border-b">
+    <section id="about" className="about w-fit py-20 px-10 md:py-20 md:px-40 flex flex-col gap-6 border-muted border-b">
       <motion.div
         variants={textVariants}
         initial={"offscreen"}

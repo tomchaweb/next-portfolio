@@ -42,7 +42,7 @@ const h2Variants = {
 
 export default function Hero() {
   return (
-    <section id="hero" className="hero h-[90vh] py-10 px-20 md:py-20 md:px-40 flex flex-col items-left md:items-center justify-center gap-4 dark:bg-dot-white/[0.2] bg-dot-black/[0.2] dark:bg-darkgray bg-gray-50 border-muted border-b">
+    <section id="hero" className="hero h-[90vh] py-10 px-10 md:py-20 md:px-40 flex flex-col items-left md:items-center justify-center gap-4 dark:bg-dot-white/[0.2] bg-dot-black/[0.2] dark:bg-darkgray bg-gray-50 border-muted border-b">
       <motion.div
         variants={h1Variants}
         initial={"offscreen"}

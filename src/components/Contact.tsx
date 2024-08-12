@@ -6,7 +6,7 @@ import LinkedinLogo from "./svg/LinkedinLogo"
 
 export default function Contact() {
   return (
-    <section id="contact" className="contact py-20 px-20 md:py-20 md:px-40 flex flex-col gap-2">
+    <section id="contact" className="contact py-20 px-10 md:py-20 md:px-40 flex flex-col gap-2">
       <div className="flex items-center align-middle gap-2">
         <div className="rounded-full w-2 h-2 bg-primary"></div>
         <h3 className="font-bold tracking-widest uppercase">Contact Me</h3>
