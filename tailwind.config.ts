@@ -60,6 +60,7 @@ const config = {
           foreground: "hsl(var(--card-foreground))",
         },
         modal: "#7362A3",
+        quizbuzz: "#BE8E28"
       },
       borderRadius: {
         lg: "var(--radius)",

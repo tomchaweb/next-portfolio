@@ -16,6 +16,7 @@ import { SquareArrowUpRightIcon } from "lucide-react"
 import Image from "next/image"
 
 import { motion } from "framer-motion"
+import GithubLogo from "./svg/GithubLogo"
 
 const titleVariants = {
   offscreen: {
@@ -56,11 +57,16 @@ export default function Projects() {
             <CardDescription>A fully functional furniture e-commerce site.</CardDescription>
           </CardHeader>
           <CardContent className="h-full flex flex-col justify-between">
-            <Image src="/modalLaptop.png" alt="modal website on laptop" width={600} height={600} className="hidden md:block relative left-36 top-10" />
-            <Image src="/modalPhone.png" alt="modal website on phone" width={300} height={300} className="block md:hidden relative left-32 top-3" />
-            <Button className="w-30 rounded-full hover:scale-110 hover:bg-purple-950 transition-all z-10 bg-modal">
-              <Link href="https://modal-ecommerce-ten.vercel.app/" target="_blank" className="flex items-center gap-2">Live Demo<SquareArrowUpRightIcon /></Link>
-            </Button>
+            <Image src="/modalLaptop.png" alt="modal website on laptop" width={600} height={600} className="hidden md:block relative left-36 top-10 bg-[url('/blob.svg')] bg-cover" />
+            <Image src="/modalPhone.png" alt="modal website on phone" width={300} height={300} className="block md:hidden relative left-32 top-3 bg-[url('/blob.svg')] bg-cover" />
+            <div className="flex items-center gap-2">
+              <Button className="w-30 rounded-full hover:scale-110 hover:bg-purple-950 transition-all z-10 bg-modal">
+                <Link href="https://modal-ecommerce-ten.vercel.app/" target="_blank" className="flex items-center gap-2">Live Demo<SquareArrowUpRightIcon /></Link>
+              </Button>
+              <Button className="w-30 rounded-full hover:scale-110 hover:bg-purple-950 transition-all z-10 bg-modal">
+                <Link href="https://github.com/tomchaweb/ecommerce" target="_blank" className="flex items-center gap-2">Code<GithubLogo size={24} /></Link>
+              </Button>
+            </div>
           </CardContent>
           <CardFooter className="flex gap-2 w-fit">
             <Badge variant="secondary">React</Badge>
@@ -71,14 +77,19 @@ export default function Projects() {
         <Card className="w-auto p-2 flex flex-col items-start justify-between overflow-hidden">
           <CardHeader>
             <CardTitle>QuizBuzz</CardTitle>
-            <CardDescription>A fun quiz web app.</CardDescription>
+            <CardDescription>A fun little trivia quiz.</CardDescription>
           </CardHeader>
           <CardContent className="h-full flex flex-col justify-between">
-            <Image src="/modalLaptop.png" alt="modal website on laptop" width={600} height={600} className="hidden md:block relative left-36 top-10" />
-            <Image src="/modalPhone.png" alt="modal website on phone" width={300} height={300} className="block md:hidden relative left-32 top-3" />
-            <Button className="w-30 rounded-full hover:scale-110 hover:bg-purple-950 transition-all z-10 bg-modal">
-              <Link href="https://modal-ecommerce-ten.vercel.app/" target="_blank" className="flex items-center gap-2">Live Demo<SquareArrowUpRightIcon /></Link>
-            </Button>
+            <Image src="/quizbuzzLaptop.png" alt="quizbuzz website on laptop" width={400} height={400} className="hidden md:block relative left-48 top-20 bg-[url('/blob2.svg')] bg-cover" />
+            <Image src="/quizbuzzPhone.png" alt="quizbuzz website on phone" width={300} height={300} className="block md:hidden relative left-32 top-3 bg-[url('/blob2.svg')] bg-cover" />
+            <div className="flex items-center gap-2">
+              <Button className="w-30 rounded-full hover:scale-110 hover:bg-yellow-800 text-black transition-all z-10 bg-yellow-500">
+                <Link href="https://quizbuzz-rho.vercel.app/" target="_blank" className="flex items-center gap-2">Live Demo<SquareArrowUpRightIcon /></Link>
+              </Button>
+              <Button className="w-30 rounded-full hover:scale-110 hover:bg-yellow-800 text-black transition-all z-10 bg-yellow-500">
+                <Link href="https://github.com/tomchaweb/quizbuzz" target="_blank" className="flex items-center gap-2">Code<GithubLogo size={24} /></Link>
+              </Button>
+            </div>
           </CardContent>
           <CardFooter className="flex gap-2 w-fit">
             <Badge variant="secondary">NextJS</Badge>
