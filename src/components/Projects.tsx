@@ -77,7 +77,7 @@ export default function Projects() {
         <Card className="w-auto p-2 flex flex-col items-start justify-between overflow-hidden">
           <CardHeader>
             <CardTitle>QuizBuzz</CardTitle>
-            <CardDescription>A fun little trivia quiz.</CardDescription>
+            <CardDescription>A fun little trivia quiz app.</CardDescription>
           </CardHeader>
           <CardContent className="h-full flex flex-col justify-between">
             <Image src="/quizbuzzLaptop.png" alt="quizbuzz website on laptop" width={400} height={400} className="hidden md:block relative left-48 top-20 bg-[url('/blob2.svg')] bg-cover" />
