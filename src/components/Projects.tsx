@@ -53,7 +53,7 @@ export default function Projects() {
       <div className="project-cards grid grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-10 mt-10">
         <Card className="w-auto p-2 flex flex-col items-start justify-between overflow-hidden">
           <CardHeader>
-            <CardTitle>Modal E-Commerce</CardTitle>
+            <CardTitle className="text-4xl font-bold tracking-tighter">Modal E-Commerce</CardTitle>
             <CardDescription>A fully functional furniture e-commerce site.</CardDescription>
           </CardHeader>
           <CardContent className="h-full flex flex-col justify-between">
@@ -76,7 +76,7 @@ export default function Projects() {
         </Card>
         <Card className="w-auto p-2 flex flex-col items-start justify-between overflow-hidden">
           <CardHeader>
-            <CardTitle>QuizBuzz</CardTitle>
+            <CardTitle className="text-4xl font-bold tracking-tighter">QuizBuzz</CardTitle>
             <CardDescription>A fun little trivia quiz app.</CardDescription>
           </CardHeader>
           <CardContent className="h-full flex flex-col justify-between">
