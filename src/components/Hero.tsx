@@ -72,7 +72,7 @@ export default function Hero() {
         whileInView={"onscreen"}
         viewport={{ once: true }}>
         <Button className="w-fit rounded-full hover:scale-110 transition-all"><Link href="#contact">Get in Touch</Link></Button>
-        <ArrowDown className="mt-10 hidden md:block text-center dark:text-gray-300" />
+        <ArrowDown className="mt-10 block text-center dark:text-gray-300" />
       </motion.div>
     </section>
   )
