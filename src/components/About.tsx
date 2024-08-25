@@ -46,7 +46,7 @@ const logoVariants = {
 
 export default function About() {
   return (
-    <section id="about" className="about w-fit py-20 px-10 md:py-20 md:px-40 flex flex-col gap-6 border-muted border-b">
+    <section id="about" className="about w-[100vw] py-20 px-10 md:py-20 md:px-20 lg:px-40 flex flex-col gap-6 border-muted border-b">
       <motion.div
         variants={textVariants}
         initial={"offscreen"}
@@ -64,7 +64,7 @@ export default function About() {
           Hello there, I&apos;m Tom, a passionate front-end developer from Manchester, UK. I first discovered my interest in web development during a game development course at university, and it grew from there. There&apos;s something magical about seeing code you&apos;ve written come to life as a beautiful design.
         </p>
       </motion.div>
-      <motion.div className="mx-auto grid grid-cols-4 md:flex place-items-center gap-12"
+      <motion.div className="mx-auto grid grid-cols-4 lg:flex place-items-center gap-12"
         variants={logoVariants}
         initial={"offscreen"}
         whileInView={"onscreen"}

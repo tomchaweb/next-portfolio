@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" >
-      <body className={`${inter.className} aliased`}><ThemeProvider attribute="class" defaultTheme="system">{children}</ThemeProvider></body>
+      <body className={`${inter.className} aliased overflow-x-hidden`}><ThemeProvider attribute="class" defaultTheme="system">{children}</ThemeProvider></body>
     </html>
   );
 }

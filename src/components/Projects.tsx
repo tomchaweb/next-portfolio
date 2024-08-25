@@ -58,7 +58,7 @@ const cardVariants = {
 
 export default function Projects() {
   return (
-    <section id="projects" className="projects h-fit py-20 px-10 md:py-20 md:px-40 flex flex-col gap-2 dark:bg-dot-white/[0.2] bg-dot-black/[0.2] dark:bg-darkgray bg-gray-50 border-muted border-b">
+    <section id="projects" className="projects h-fit py-20 px-10 md:py-20 md:px-20 lg:px-40 flex flex-col gap-2 dark:bg-dot-white/[0.2] bg-dot-black/[0.2] dark:bg-darkgray bg-gray-50 border-muted border-b">
       <motion.div
         variants={titleVariants}
         initial={"offscreen"}
@@ -72,7 +72,7 @@ export default function Projects() {
           My Work
         </h2> */}
       </motion.div>
-      <div className="project-cards grid grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-10 mt-10">
+      <div className="project-cards grid grid-cols-1 lg:grid-cols-2 gap-y-8 md:gap-10 mt-10">
         <motion.div
           variants={cardVariants}
           initial={"offscreenLeft"}
